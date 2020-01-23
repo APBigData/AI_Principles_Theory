@@ -1,8 +1,3 @@
----
-title: "Artificial Intelligence Principles"
-author: "D'Haese David"
----
-
 # Artificial Intelligence Principles
 
 ## 01 - Introduction
