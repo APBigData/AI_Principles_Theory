@@ -1,4 +1,4 @@
-# AI_Principles_Theory
+# AI Principles - Theory
 
 ## About this Course
 
