@@ -9,3 +9,4 @@ The course is set up as an ongoing practical course with a sequence of challenge
 ## Table of Contents
 
 - [01 - Introduction](AI_Principles_01_Introduction.md)
+- [02 - Occupancy](AI_Principles_02_Occupancy.md)

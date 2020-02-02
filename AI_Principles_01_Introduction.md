@@ -1,5 +1,10 @@
 # Artificial Intelligence Principles
 
+32318/1700/1920/1/22
+D'Haese David
+
+---
+
 ## 01 - Introduction
 
 In this Artificial Intelligence principles course of the AP University College (Antwerp, Belgium), you will become acquainted with artificial intelligence in general and with supervised machine learning in particular. The goal is to bring you hands-on experience in _solving real-world prediction problems_ using the most popular regression and classification algorithms.
@@ -19,7 +24,25 @@ In this Artificial Intelligence principles course of the AP University College (
 
 ### Viewing this Course
 
-This document is written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and endeavors to adhere to the [version 0.29 CommonMark specification](https://spec.commonmark.org/0.29/) with addition of a YAML header for the metadata. You are best to view this document in [VS Code](https://code.visualstudio.com/) (and _not_ in an online editor) and check out the [Markdown All in One](https://github.com/yzhang-gh/vscode-markdown) and other extensions.
+This document is written in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and endeavors to adhere to the [version 0.29 CommonMark specification](https://spec.commonmark.org/0.29/). You are best to view this document in [VS Code](https://code.visualstudio.com/) (and _not_ in an online editor). Follow the these steps to view this course:
+
+- Install [VS Code](https://code.visualstudio.com/download)
+
+  <details><summary>more&hellip;</summary>
+
+  - You can open VS code and set a folder as a workspace with the command `code` in that folder
+  - If never done so before, open the welcome screen of VS code and go through all the linked tutorials
+
+  > TIP: Check File > Auto Save
+  >
+  > TIP: Check out the `Ctrl + Shift + P` shortcut to open the VS Code command palette
+  >
+  > TIP: Check out the `Ctrl + ,` shortcut to open the VS Code Settings
+
+  </details>
+
+- Install the [Markdown All in One](https://github.com/yzhang-gh/vscode-markdown), [Markdown](https://marketplace.visualstudio.com/items?itemName=starkwang.markdown), [Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint) and [Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced) extensions by pressing `Ctrl + Shift + X` (unless you adjusted the keybindings, of course) and searching for `markdown`
+- Install the `Excel Viewer` extension
 
 <details><summary>Why Markdown?</summary>
 There are several of reasons:
@@ -53,7 +76,7 @@ After completing this course you should be able to:
 | TI_LD412 | Understand the basic principle surrounding ML                                         |
 | TI_LD413 | Recognize the difference between supervised and unsupervised ML                       |
 | TI_LD414 | Understand the basics behind deep learning                                            |
-| TI_LD415 | Use a diagnostic toolset to measure the performance of ML models                      |
+| TI_LD415 | Use a diagnostic tool set to measure the performance of ML models                      |
 | TI_LD416 | Recognize the principles behind training and cross-validation                         |
 | TI_LD417 | Visualize complex data                                                                |
 | TI_LD418 | Develop the proper artificial intelligence (AI) strategy based on a problem statement |
@@ -82,7 +105,7 @@ The course is set up as an ongoing practical course with a sequence of challenge
 
 ### How to Pass this Course
 
-First of all, there is no need for prior knowledge to pass this course. You will not be confronted with the rather complex algorithms (e.g. during optimization) that run in the background. You will learn _some_ principles behind _some_ of the more popular algorithms without the need of mathematical formulas, although you will be given references should you have the interest to dig a bit deeper. 
+First of all, there is no need for prior knowledge to pass this course. You will not be confronted with the rather complex algorithms (e.g. during optimization) that run in the background. You will learn _some_ principles behind _some_ of the more popular algorithms without the need of mathematical formulas, although you will be given references should you have the interest to dig a bit deeper.
 
 Secondly, the goal is the arouse your passion for AI. To scratch the surface of the endless possibilities that AI offer. Your success in completing this course will almost entirely depend on your effort and dedication you show during the classes more so than it does on your capabilities. So procrastinators: be warned.
 
