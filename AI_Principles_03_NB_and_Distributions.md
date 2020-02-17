@@ -1,4 +1,3 @@
-
 # Artificial Intelligence Principles
 
 32318/1700/1920/1/22
@@ -6,7 +5,9 @@ D'Haese David
 
 ---
 
-## Notes Naive Bayes and Distributions
+## Notes on Naive Bayes Classifier and Distributions
+
+During this second lesson, we will first take a bird's eye perspective and asked ourselves fundamental questions such as _"What is artificial intelligence?"_. Then, we will explore some theory behind the Gaussian Naïve Bayes classifier and understand what distributions are.
 
 ### Previously on AI Principles
 
@@ -14,12 +15,20 @@ D'Haese David
 
 ### Terms and Abbreviations
 
-| Term | Description                                |
-| ---- | ------------------------------------------ |
-| i.e. | Id est, reads as "which is is the same as" |
-| sd   | Standard deviation                         |
-
-During this second lesson, we will explore a medical data set summarizing some aspects of the admission of diabetes patients. For this new data set, we will have to learn new tricks. Along the way, we will take a bird's eye perspective and asked ourselves fundamental questions such as _"What is artificial intelligence?"_.
+| Term         | Description                                       |
+| ------------ | ------------------------------------------------- |
+| AI           | Artificial Intelligence                           |
+| Algorithm    | A set of instructions                             |
+| Feature      | An input *variable*                               |
+| i.e.         | Id est, reads as "which is is the same as"        |
+| Instance     | An instantiation of the *variables* in a data set |
+| Learner      | A ML algorithm                                    |
+| ML           | Machine Learning                                  |
+| Outcome      | The output *variable* to be predicted             |
+| sd           | Standard deviation                                |
+| Testing set  | Set of instances used to test the *learner*       |
+| Training set | Set of instances used to train the *learner*      |
+| Variable     | A measure/property represented by a *data series* |
 
 ### What Is Artificial Intelligence
 
@@ -218,7 +227,7 @@ Using the theoretical distributions, one can device all kinds of statistics (mea
 Clearly, the normal distribution is not representative of the data and hence, the mean and sd are not appropriate!
 
 > PRINCIPLE: It is inappropriate to have a mean or other measure of central tendency without an associated measure of spread
-
+>
 > PRINCIPLE: Every statistic is assumption-ridden
 
 So as a data scientist, you need to be aware of the actual distribution of your data. You can do this using the histogram as seen above. Especially when the data is of a discrete type such as count data and the number of data points is limited (up to a few hundred), this is an acceptable approach. However, there are a lot of issues with histograms. There is no reason to choose one or the other bin-width (width of bars) and location of the bins on the x-axis. With larger data sets and with more continuous data types (weights, lengths, light-intensity, …) there is a better alternative: __kernel density estimation__. In this case, you draw a little kernel (dashed steelblue line with one highlighted in orange) around each data point and sum them:
