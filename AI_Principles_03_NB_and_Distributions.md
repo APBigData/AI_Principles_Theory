@@ -6,7 +6,9 @@ D'Haese David
 
 ---
 
-## Previously on AI Principles
+## Notes Naive Bayes and Distributions
+
+### Previously on AI Principles
 
 ![Recap Lesson 1](img/Recap_Lesson_1.png)
 
@@ -17,11 +19,9 @@ D'Haese David
 | i.e. | Id est, reads as "which is is the same as" |
 | sd   | Standard deviation                         |
 
-## Diabetes
-
 During this second lesson, we will explore a medical data set summarizing some aspects of the admission of diabetes patients. For this new data set, we will have to learn new tricks. Along the way, we will take a bird's eye perspective and asked ourselves fundamental questions such as _"What is artificial intelligence?"_.
 
-## What Is Artificial Intelligence
+### What Is Artificial Intelligence
 
 Artificial intelligence (AI) according to the [Performance Architects](https://performancearchitects.com/) is like sex. Everyone is talking about it, nobody has any idea what they are doing, and we all think that everyone is doing it – so we all say we are doing it! AI is being hyped to the degrees that it is seen as the driver behind what [Klaus Schwab](https://en.wikipedia.org/wiki/Klaus_Schwab) coined the *Fourth Industrial Revolution* (see [here](https://en.wikipedia.org/wiki/Technological_revolution)). So, it is a big thing, but what is it exactly. Well, there is no universal agreement on the definitions, but in this course we will adopt the following definitions:
 
@@ -57,7 +57,7 @@ _Example usage_:
 
 We will encounter many other definitions later in this course such as **Neural network (NN)**, **Deep Learning**, **Natural Language Processing (NLP)**, etc&hellip;
 
-## Applications of Artificial Intelligence
+### Applications of Artificial Intelligence
 
 Watch [this video](https://youtu.be/m9D-v6r3NJQ) to get a high-level perspective of the possible applications of AI today and the near future.
 
@@ -71,11 +71,11 @@ But a lot of the data is not yet being captured, even in places where you wouldn
 ![Data loss at the intensive care unit for premature babies](img/Data_Loss.png)
 <small>[Source](https://youtu.be/m9D-v6r3NJQ)</small>
 
-## The Naive Bayes Classifier
+### The Naive Bayes Classifier
 
 Let us dig a bit deeper into the Naive Bayes classifier we used previously. Yes, it nice to get things working, but also good to know what we have actually done. And, so as to get into the mood for our next data set, let us consider a clinical example to explain the Naive Bayes classifier.
 
-## The Diabetes Case
+### Naive Bayes Example
 
 Suppose we have the following hypothetical data:
 
@@ -178,7 +178,7 @@ $$P(Health=Ill|Evidence) = 45.97\%$$
 
 Where this posterior can now become the prior for the next update. So, given the evidence, the patient is almost as likely to be ill than to be healthy. If you really must pick, you could say that, without any criteria provided, the patient is a bit more likely to be healthy and to be ill.
 
-## Theoretical Distributions
+### Theoretical Distributions
 
 In previous paragraph, we have been discussing about distributions, so maybe it's time to explore this term a bit more. First off, there are two types of distributions: __theoretical distributions__ and __data distributions__. A theoretical distribution represents a model that is human-made and may or may not exist in nature. Some of them such as the _Poisson distribution_ or the _Gaussian distribution_ (also called the normal distribution) are well known and are very important for the field of statistics. Few people realize that in fact the normal distribution is an approximation of an even more important theoretical distribution: the _binomial distribution_.
 
@@ -209,7 +209,7 @@ All these theoretical distributions have in common that they can be represented 
 
 [ref](https://github.com/rasmusab/distribution_diagrams)
 
-## Data-Distributions
+### Data-Distributions
 
 Using the theoretical distributions, one can device all kinds of statistics (mean, variance, student T, …) and that is exactly what a large part of the field of statistics is concerned with. Each time you take the mean of a set of numbers you assume that these numbers have some sort of distribution, generally the Gaussian distribution, which by the way is just an approximation as we have seen above. This is fine as long as we have a good feeling about the assumption we are making. For example consider this mean ± sd of a variable $x$: 21 ± 15 (it is actually inappropriate to have a mean or other measure of central tendency without a measure of spread). Nothing wrong, you might think, until you look at the histogram of $x$:
 
@@ -228,15 +228,3 @@ So as a data scientist, you need to be aware of the actual distribution of your 
 (the kernels in the above figure have been stretched along the y-axis for clarity) Here is an overview of when to use bar charts, histograms and density diagrams:
 
 ![Visualizing Distributions](img/Hist_KDE.png)
-
-
-
-
-
-
-
-
-
-
-
-

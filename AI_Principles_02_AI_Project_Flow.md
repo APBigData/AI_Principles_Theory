@@ -6,7 +6,7 @@ D'Haese David
 
 ---
 
-## 02 - Occupancy
+## 02 - AI Project Flow
 
 Let us get started by running a ready-made block of code using the `sklearn` library and real training data. The task at hand is to predict wether a person is present in a room or not based on sensors measuring the room's air temperature, air humidity, light and CO<sub>2</sub> concentration. We will learn the theory along the way.
 
