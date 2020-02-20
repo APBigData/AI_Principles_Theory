@@ -11,7 +11,7 @@ During this second lesson, we will first take a bird's eye perspective and asked
 
 ### Previously on AI Principles
 
-![Recap Lesson 1](img/Recap_Lesson_1.png)
+![Recap Lesson 1](img/Recap_Lesson_2.png)
 
 ### Terms and Abbreviations
 
